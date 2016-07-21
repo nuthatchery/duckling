@@ -1,0 +1,3 @@
+def example = module {
+  def f = fun(x,y,z)
+}
