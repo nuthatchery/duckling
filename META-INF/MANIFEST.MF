@@ -1,8 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: duckling
-Bundle-SymbolicName: duckling
-Bundle-Version: 0.1.0.qualifier
-Export-Package: org.ducklinglang.duckling.parser
-Require-Bundle: pgf-experimental;bundle-version="0.1.1",
- pica;bundle-version="0.2.0"
+Bundle-Name: exlang
+Bundle-SymbolicName: exlang
+Bundle-Version: 1.0.0
+Require-Bundle: rascal_eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
