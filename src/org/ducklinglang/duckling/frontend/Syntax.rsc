@@ -1,4 +1,4 @@
-module exlang::frontend::ExSyntax
+module org::ducklinglang::duckling::ExSyntax
 
 
 // DECLARATIONS

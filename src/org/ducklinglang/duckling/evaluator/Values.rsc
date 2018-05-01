@@ -1,5 +1,5 @@
-module exlang::evaluator::ExValues
-import exlang::frontend::ExSyntax;
+module org::ducklinglang::duckling::evaluator::Values
+import org::ducklinglang::duckling::frontend::Syntax;
 import String;
 import ParseTree;
 import IO;

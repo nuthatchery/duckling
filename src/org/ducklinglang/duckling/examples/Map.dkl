@@ -1,0 +1,19 @@
+interface Map {
+
+	put!(key, val)
+	  ensures
+	     forall k if k == key then get(this', k) == val else get(this', k) == get(this, k)
+	;
+	
+	get(key);
+	
+	has(key);
+
+
+	property has(put(map, key, val), key) == true;
+	
+	property get(put(key, val), key) == val;
+	
+	property key1 != key2 => get(put(map, key2, val2), key1) == get(map, key1);
+
+}
